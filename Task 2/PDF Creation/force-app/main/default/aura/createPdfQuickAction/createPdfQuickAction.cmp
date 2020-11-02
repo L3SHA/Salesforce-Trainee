@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader, force:hasRecordId">
+    <aura:attribute name="recordId" type="String"/> 
+    <c:buttonPdfCreation recordId="{!v.recordId}" onclose="{!c.closeQA}"></c:buttonPdfCreation>
+</aura:component>	
